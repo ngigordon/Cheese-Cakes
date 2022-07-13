@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url('/Cheese-Cakes/images/background.jpeg');
+    height: 100vh;
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* .nav__bar{
+    
+} */
+
+.menu{
+    display: flex;
+    background: #C8B6E2;
+/*     padding: 2px; */
+    list-style: none
+}
+.menu .nav__link{
+    margin: 0 10px;
+    font-size: 1.5rem;
+    font-size: bold;
+}
+
+.menu .nav__link a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: fit-content;
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu .nav__link a:hover {
+    color: #ebe8ef;
+    transition: 0.3s ease-in-out;
+    position: relative;
+    font-style: italic;
+}
+
+.menu .nav__link:hover :after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    height: 5px;
+    background-color: red;
+    width: 100%;
+    transition: 1s ease-in-out;
+}
+
+
+/* main */
+main{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+aside{
+    margin-left: 16px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+}
+
+aside .aside__nav{
+    list-style: none;
+    /* text-align: center; */
+    margin: 12px 0;
+}
+.aside__nav li>a{
+    color: #0d01f6;
+    font-family: impact;
+}
+/* main content */
+.main__content{
+    width: 70%;
+    margin-left: 20px;
+}
+
+.heading__text{
+    margin-bottom:3rem ;
+}
+.heading__text>p{
+    font-style: italic;
+    opacity: 70%;
+}
+
+.card{
+   background-color: #ffffff;
+   margin-bottom: 15px;
+   display: flex;
+   align-items: center;
+   height: 90px;
+   border-radius: 15px;
+}
+
+.image{
+    width: 90px;
+    height: 70px;
+    border-radius: 30%;
+    margin:0 10px;
+}
+
+.card__info{
+    flex:1;
+    min-width: 250px;
+}
+
+.card__info__top{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    margin: 0 10px 20px 0;
+}
+
+input{
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+footer{
+    background: #C8B6E2;
+    text-align: center;
+    padding: 20px 0;
+    font-size: larger;
+}
